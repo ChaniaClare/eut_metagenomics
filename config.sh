@@ -2,8 +2,8 @@
 
 # Project directories
 
-PROJECT_DIR=/Users/chaniaclare/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Documents/PhD/Barnes-PhD/metagenomics/projects/eut_metagenomics
-RAW_DATA_DIR=/Volumes/groupfolders/DBIO_CSSB/projects-other/2025-BMC-metagenomics/dataset-from-Mona
+PROJECT_DIR=~/projects/metagenomics
+RAW_DATA_DIR=${PROJECT_DIR}/raw_data
 PROCESSED_DATA_DIR=${PROJECT_DIR}/processed_data
 TAXONOMY_DIR=${PROJECT_DIR}/taxonomic_profiles
 FUNCTIONAL_DIR=${PROJECT_DIR}/functional_analysis
@@ -13,7 +13,7 @@ LOGS_DIR=${PROJECT_DIR}/logs
 RESULTS_DIR=${PROJECT_DIR}/results
 
 # MetaPhlAn parameters
-METAPHLAN_DB="/opt/anaconda3/envs/metagenomics_x86/lib/python3.9/site-packages/metaphlan/metaphlan_databases"
+METAPHLAN_DB="/home/cclare/miniconda3/envs/metagenomics_env/lib/python3.9/site-packages/metaphlan/metaphlan_databases"
 METAPHLAN_INDEX="mpa_vJun23_CHOCOPhlAnSGB_202403"
 METAPHLAN_THREADS=8
 METAPHLAN_ANALYSIS_TYPE="rel_ab_w_read_stats"
